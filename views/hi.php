@@ -92,7 +92,7 @@ echo '<hr>.todo list'; ?>
                                                             <button class="border-0 btn-transition btn btn-outline-success"
                                                                     style="background-color: #da0c32">
                                                                 <a class="fa fa-trash" id="a_tg"
-                                                                   href="../libs/delet_todo.php" style="color: white">delet</a>
+                                                                   href="<?php echo '../libs/delet_todo.php?ali=' . $d.'&&id='.$user_id ; ?> " style="color: white">delet</a>
                                                             </button>
                                                         </div>
 
