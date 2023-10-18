@@ -1,11 +1,14 @@
 <?php
 include '../configs/id_db_max_form_foldei.php';
 global $id_max_mount;
-if (isset($_GET['id'])) {
+if (  isset($_GET['id'])) {
     $user_id = $_GET['id'];
     echo $user_id;
 }
 echo $id_max_mount;
+if ( ! isset($id_max_mount)){
+    $id_max_mount=$_GET['id_max'];
+}
 echo '<hr>.todo list'; ?>
 
 <!DOCTYPE html>
