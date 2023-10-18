@@ -20,12 +20,12 @@ include '../bootstrop/init.php'
 			<input type="email" class="input" placeholder="Email" name="email"/>
 			<input type="password" class="input" placeholder="Password" name="pass"/>
 		</div>
-		<button class="submit-btn" type="submit">ali</button>
+		<button class="submit-btn" type="submit">start</button>
 	</div></form>
 <form action="../libs/login-old.php" method="post">
 	<div class="login slide-up">
 		<div class="center">
-			<h2 class="form-title" id="login"><span>or</span>Log in</h2>
+			<h2 class="form-title" id="login"><span></span>Log in</h2>
 			<div class="form-holder">
 				<input type="email" class="input" placeholder="Email" name="email"/>
 				<input type="password" class="input" placeholder="Password" name="pass"/>
