@@ -1,0 +1,212 @@
+
+Body {
+    Margin: 0;
+    Font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    Font-size: 0.88rem;
+    Font-weight: 400;
+    Line-height: 1.5;
+    Color: #070809;
+    Text-align: left;
+    Background-color: #6200EA;
+}
+
+I {
+    Font-style: italic;
+}
+#div_body{
+    margin-left: 10em;
+    margin-right: 10em;
+
+}
+.container{
+    Margin-top:100px;
+}
+
+.card {
+    Box-shadow: 0 0.46875rem 2.1875rem rgba(4, 9, 20, 0.03), 0 0.9375rem 1.40625rem rgba(4, 9, 20, 0.03), 0 0.25rem 0.53125rem rgba(4, 9, 20, 0.05), 0 0.125rem 0.1875rem rgba(4, 9, 20, 0.03);
+    Border-width: 0;
+    Transition: all .2s;
+}
+
+.card-header:first-child {
+    Border-radius: calc(0.25rem - 1px) calc(0.25rem – 1px) 0 0;
+}
+
+.card-header {
+    Display: flex;
+    Align-items: center;
+    Border-bottom-width: 1px;
+    Padding-top: 0;
+    Padding-bottom: 0;
+    Padding-right: 0.625rem;
+    Height: 3.5rem;
+    Background-color: #fff;
+}
+.widget-subheading{
+    Color: #858a8e;
+    Font-size: 10px;
+}
+.card-header.card-header-tab .card-header-title {
+    Display: flex;
+    Align-items: center;
+    White-space: nowrap;
+}
+
+.card-header .header-icon {
+    Font-size: 1.65rem;
+    Margin-right: 0.625rem;
+}
+
+.card-header.card-header-tab .card-header-title {
+    Display: flex;
+    Align-items: center;
+    White-space: nowrap;
+}
+
+.btn-actions-pane-right {
+    Margin-left: auto;
+    White-space: nowrap;
+}
+
+.text-capitalize {
+    Text-transform: capitalize !important;
+}
+
+.scroll-area-sm {
+    Height: 288px;
+
+    Overflow-x: hidden;
+}
+
+.list-group-item {
+    Position: relative;
+    Display: block;
+    Padding: 0.75rem 1.25rem;
+    Margin-bottom: -1px;
+    Background-color: #fff;
+    Border: 1px solid rgba(0, 0, 0, 0.125);
+}
+#div{
+    width: 100%;
+    height: 5.5em;
+    background-color: #ffffff;
+
+}
+.list-group {
+    Display: flex;
+    Flex-direction: column;
+    Padding-left: 0;
+    Margin-bottom: 0;
+}
+
+.todo-indicator {
+    Position: absolute;
+    Width: 4px;
+    Height: 60%;
+    Border-radius: 0.3rem;
+    Left: 0.625rem;
+    Top: 20%;
+    Opacity: .6;
+    Transition: opacity .2s;
+}
+
+.bg-warning {
+    Background-color: #0627c9 !important;
+}
+
+.widget-content {
+    Padding: 1rem;
+    Flex-direction: row;
+    Align-items: center;
+}
+
+.widget-content .widget-content-wrapper {
+    Display: flex;
+    Flex: 1;
+    Position: relative;
+    Align-items: center;
+}
+
+.widget-content .widget-content-right.widget-content-actions {
+    Visibility: hidden;
+    Opacity: 0;
+    Transition: opacity .2s;
+}
+
+.widget-content .widget-content-right {
+    Margin-left: auto;
+}
+
+.btn:not(:disabled):not(.disabled) {
+    Cursor: pointer;
+}
+
+.btn {
+    Position: relative;
+    Transition: color 0.15s, background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
+}
+
+.btn-outline-success {
+    Color: #da0c32;
+    Border-color: #da0c32;
+}
+
+.btn-outline-success:hover {
+    Color: #fff;
+    Background-color: #da0c32;
+    Border-color: #da0c32;
+}
+
+.btn-outline-success:hover {
+    Color: #fff;
+    Background-color: #da0c32;
+    Border-color: #da0c32;
+}
+.btn-primary {
+    Color: #fff;
+    Background-color: #6200EA;
+    /*Background-color: #3f6ad8;*/
+    Border-color: #3f6ad8;
+}
+.btn {
+    Position: relative;
+    Transition: color 0.15s, background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
+    Outline: none !important;
+    Background-color: #6200EA;
+}
+
+.card-footer{
+    Background-color: #fff;
+}
+.ali{
+    width: 30em;
+    height: 4em;
+    color: white;
+    font-size: 50px;
+}
+#but{
+    width: 6em;
+    height: 3em;
+    margin-left:  20px;
+    margin-block: 20px;
+}
+.in{width: 18em;
+    margin-left:  20px;
+
+    font-size: 14px;
+    height: 3em;}
+#submit_idit{
+    background-color: #da0c32;
+    color: #0627c9;
+}
+.add_todo_i{
+    color: #0627c9;
+}
+.div_t{margin-left:  20em;
+
+
+
+}
+
+
+

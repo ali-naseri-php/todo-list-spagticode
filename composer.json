@@ -1,0 +1,14 @@
+{
+    "name": "ali/todo",
+    "description": "projh todo list",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ali",
+            "email": "ali.naseri.php@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
