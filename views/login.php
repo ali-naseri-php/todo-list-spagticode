@@ -12,7 +12,7 @@ include '../bootstrop/init.php'
 </head>
 <body id="body1">
 <form action="../libs/new-log.php" method="post">
-<div class="form-structor">
+<div class="form-structor" style="margin-left: 400px">
 	<div class="signup">
 		<h2 class="form-title" id="signup">new login</h2>
 		<div class="form-holder">

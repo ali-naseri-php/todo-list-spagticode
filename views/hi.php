@@ -75,7 +75,7 @@ echo '<hr>.todo list'; ?>
                                                 </div>
 
                                                 <div class="widget-content-left"><?php if ($s != 0) {
-                                                        echo " <button  style='background-color: #39b131;  ' > </button>";
+                                                        echo " <button  style='background-color: #39b131; color:#39B131FF  ' > .</button>";
                                                     } ?>
 
                                                     <div class="widget-heading">
